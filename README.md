@@ -16,9 +16,9 @@ Our pseudo labels follows the format of [MSCOCO2017](https://cocodataset.org/#ho
 
 ### Train with [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose/) and our pseudo labels:
 - Clone AlphaPose and download our pseudo labels.
-- Change the paths in 'AlphaPose/configs/coco/resnet/256x192_res50_lr1e-3_1x.yaml' and the num_joints to 133.
-- Set EVAL_JOINTS in 'AlphaPose/alphapose/datasets/coco_det.py' and 'AlphaPose/alphapose/datasets/mscoco.py' to ```python list(range(133))```, and set the num_joints in 'AlphaPose/alphapose/datasets/mscoco.py' to 133.
-- Set the joint_pairs in 'AlphaPose/alphapose/datasets/coco_det.py' and 'AlphaPose/alphapose/datasets/mscoco.py' to:
+- Change the paths in `AlphaPose/configs/coco/resnet/256x192_res50_lr1e-3_1x.yaml` and the `num_joints` to 133.
+- Set `EVAL_JOINTS` in `AlphaPose/alphapose/datasets/coco_det.py` and 'AlphaPose/alphapose/datasets/mscoco.py' to ` list(range(133))`, and set the num_joints in `AlphaPose/alphapose/datasets/mscoco.py` to 133.
+- Set the joint_pairs in `AlphaPose/alphapose/datasets/coco_det.py` and `AlphaPose/alphapose/datasets/mscoco.py` to:
 ```python
         return[[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12], [13, 14], [15, 16], 
         [17, 20], [18, 21], [19, 22],[23, 39],[24,  38],[25, 37],[26, 36],[27, 35],
@@ -33,8 +33,8 @@ Our pseudo labels follows the format of [MSCOCO2017](https://cocodataset.org/#ho
 - Then you can train a full body model. Turn to [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose#quick-start) for more information about training.
 
 ### Inference using our model
-- Set the num_joints in config file to 133 and set EVAL_JOINTS in 'AlphaPose/alphapose/utils/writer.py' to ```python list(range(133))```
-- Change file 'AlphaPose/alphapose/utils/vis.py' into 133 keypoints case. You can visit [here](https://github.com/HaoyiZhu/AlphaPose/blob/master/alphapose/utils/vis.py) for reference.
+- Set the `num_joints` in config file to 133 and set `EVAL_JOINTS` in `AlphaPose/alphapose/utils/writer.py` to `list(range(133))`
+- Change file `AlphaPose/alphapose/utils/vis.py` into 133 keypoints case. You can visit [here](https://github.com/HaoyiZhu/AlphaPose/blob/master/alphapose/utils/vis.py) for reference.
 - Then you can inference images or videos with 133 keypoints. Turn to [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose#quick-start) for more information about inference.
 
 ### Results
