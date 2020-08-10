@@ -38,3 +38,8 @@ Our pseudo labels follows the format of [MSCOCO2017](https://cocodataset.org/#ho
 - Then you can inference images or videos with 133 keypoints. Turn to [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose#quick-start) for more information about inference.
 
 ### Results
+<p align='center'>
+    <img src="res/res0.jpg">
+    <img src="res/res1.jpg">
+    <img src="res/res2.jpg">
+</p>
