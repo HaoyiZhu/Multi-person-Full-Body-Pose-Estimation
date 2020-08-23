@@ -1,5 +1,5 @@
 ## Multi-person Full Body Pose Estimation
-The [paper](https://esflfei.github.io/esflfei.gethub.io/Full%20Body%20Pose%20Estimation.pdf) is accepted by imvip2020. [Here](https://esflfei.github.io/esflfei.gethub.io/website.html) is our website.
+The [paper](https://esflfei.github.io/esflfei.gethub.io/Full%20Body%20Pose%20Estimation.pdf) is accepted by imvip2020. Here is our [website](https://esflfei.github.io/esflfei.gethub.io/website.html) and our [video](https://youtu.be/pLqdxorCtOs).
 
 ### Get pseudo labels and validation annotations:
 * Link：https://pan.baidu.com/s/15aVGkTylcjaPbbe-ERvoNw
